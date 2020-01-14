@@ -16,6 +16,8 @@ import org.uma.jmetal.util.JMetalLogger;
 import org.uma.jmetal.util.ProblemUtils;
 import org.uma.jmetal.util.fileoutput.SolutionListOutput;
 import org.uma.jmetal.util.fileoutput.impl.DefaultFileOutputContext;
+import org.uma.jmetal.util.observer.impl.EvaluationObserver;
+import org.uma.jmetal.util.observer.impl.RunTimeChartObserver;
 import org.uma.jmetal.util.pseudorandom.JMetalRandom;
 
 import java.io.FileNotFoundException;
@@ -28,7 +30,7 @@ public class NSGAIIRunner extends AbstractAlgorithmRunner {
     CrossoverOperator<DoubleSolution> crossover;
     MutationOperator<DoubleSolution> mutation;
 
-    problem = new Qom("data/Qom.txt") ;
+    problem = new QomModel("data/Qom.txt") ;
 
     double crossoverProbability = 0.9;
     double crossoverDistributionIndex = 20.0;
@@ -51,6 +53,13 @@ public class NSGAIIRunner extends AbstractAlgorithmRunner {
                     crossover,
                     mutation,
                     termination);
+
+    EvaluationObserver evaluationObserver = new EvaluationObserver(10);
+    RunTimeChartObserver<DoubleSolution> runTimeChartObserver =
+            new RunTimeChartObserver<>("NSGA-II", 80, null);
+
+    algorithm.getObservable().register(evaluationObserver);
+    algorithm.getObservable().register(runTimeChartObserver);
 
     algorithm.run();
 

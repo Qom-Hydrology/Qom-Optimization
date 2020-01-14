@@ -1847,7 +1847,7 @@ public class QomModel extends AbstractDoubleProblem {
       InputStream inputStream = getClass().getResourceAsStream("/" + fileName);
 
       if (inputStream == null) {
-        inputStream = new FileInputStream("Qom.txt");
+        inputStream = new FileInputStream(fileName);
       }
 
       InputStreamReader isr = new InputStreamReader(inputStream);

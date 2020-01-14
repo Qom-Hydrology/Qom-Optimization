@@ -1,0 +1,25 @@
+﻿BASIN
+file pertaining to the problem Simple Model of Losses and Excesses (SMLE)
+---------------------------------------------------------
+Description: 8 Basin Atántico Sudeste, 83 Sub-basin Itajaí-Acu, station Salsedo
+Shape: rectangle 1.0
+Area_(km2): 286.0
+pevious: 0.97
+concentration_time_(hour): 4  4.01961010751901
+Date_Time_Ini_(yyyy/MM/dd_hh:mm:00_tt): 2012/06/26 03:15:00 p.m.
+Date_Time_Fin_(yyyy/MM/dd_hh:mm:00_tt): 2012/08/03 12:00:00 a.m.
+Dt_(hours): 0.25
+Reg_Ini: 1
+Reg_End: 1088
+Percolation_is_base_flow?(True/False): True
+Qi_(m3/s): 0.0
+Qp_(m3/s): 4.5
+Qg_(m3/s): 0.0
+Ro_(mm): 0.0
+So_(mm): 0.0
+Rmax_(mm): 0.03
+Smax_(mm): 20
+pc_(mm/h): 0.17
+Ki(1/s): 1.0
+Kp(1/s): 10
+Kg(1/s): 50

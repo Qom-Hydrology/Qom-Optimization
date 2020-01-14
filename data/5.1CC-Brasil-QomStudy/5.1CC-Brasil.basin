@@ -1,0 +1,25 @@
+﻿BASIN
+file pertaining to the problem Simple Model of Losses and Excesses(SMLE)
+-------------------------------------------------------------------
+Description: Brasil, Rio Riveira Do Iguape, 81679000 Juquiá-4F
+Shape: TRAPEZE 1.5
+Area_(km2): 4360.0
+pervious: 0.90
+concentration_time_(hour): 45.0
+Date_Time_Ini_(yyyy/MM/dd_hh:mm:00_tt): 2005/07/09 12:00:00 a.m.
+Date_Time_Fin_(yyyy/MM/dd_hh:mm:00_tt): 2005/10/17 08:00:00 a.m.
+Δt_(hours): 1.0
+Reg_Ini: 1
+Reg_End: 725 2351
+Percolation_is_base_flow?(True/False): True
+Qi_(m3/s): 0.0
+Qp_(m3/s): 0.0
+Qg_(m3/s): 96.0
+Ro_(mm): 0.0
+So_(mm): 0.0
+Rmax_(mm): 1.2
+Smax_(mm): 2.0
+pc_(mm/h): 0.25 0.2
+Ki(h): 25 30
+Kp(h): 4438.7 5000
+Kg(h): 2752.2 2650

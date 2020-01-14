@@ -1,0 +1,84 @@
+﻿FILES LIST FOR jMetal OPTIMIZATION MULTI-OBJECTIVE
+file pertaining to the problem Qom, a Hydrological Model of Losses and Excesses
+-------------------------------------------------------------------------
+5.1CC-Brasil ENSO PBIAS 2 8 25000
+
+
+--------------------------------
+Calibration
+------------------------------
+1.1CC-Spain ENSO PBIAS 2 8 25000
+2.2CC-Spain ENSO PBIAS 2 8 25000
+3.1CC-USA ENSO PBIAS 2 8 25000
+4.1SC-USA ENSO PBIAS 2 8 25000
+5.1CC-Brasil ENSO PBIAS 2 8 25000
+6.1CC-Brasil ENSO PBIAS 2 8 25000
+7.3SC-Argentina ENSO PBIAS 2 8 25000
+--------------------------------
+Verification
+------------------------------
+1.2CV-Spain ENSO PBIAS 2 8 1
+1.3CV-Spain ENSO PBIAS 2 8 1
+1.4CV-Spain ENSO PBIAS 2 8 1
+2.1CV-Spain ENSO PBIAS 2 8 1
+2.3CV-Spain ENSO PBIAS 2 8 1
+2.4CV-Spain ENSO PBIAS 2 8 1
+2.5CV-Spain ENSO PBIAS 2 8 1
+2.6CV-Spain ENSO PBIAS 2 8 1
+3.2CV-USA ENSO PBIAS 2 8 1
+4.2SV-USA ENSO PBIAS 2 8 1
+4.3SV-USA ENSO PBIAS 2 8 1
+7.1SV-Argentina ENSO PBIAS 2 8 1
+7.2SV-Argentina ENSO PBIAS 2 8 1
+
+---------
+arguments
+----------
+1. problem name
+2. name f1
+3. name f2
+4. number of variable
+5. test type 
+   ( 1 = evaluates default variables in * .basin.
+    -1 = test solution for No variable
+     2 = optimization evluation 
+
+multiobjective optimization functions
+-------------------------------------
+M4E MSDE (0) (ENS entre 0.98 y 0.93)
+M4E MLSE (0) (ENS entre 0.98 y 0.93)
+MSDE MLSE (0) (ENS entre 0.98 y 0.93)
+ENS M4E (1) (ENS entre 0.97 y 0.21)
+ENSO Module (0) (ENS entre 0.98 y 0.97)
+ENSO MSDE (0) (ENS entre 0.98 y 0.93)
+ENSO MLSE (0) (ENS entre 0.98 y 0.93)
+ENSO MSE (0) (ENS entre 0.98 y 0.97) PF raro
+ENSO RQV () (ENS entre 0.98 y 0.21)
+ENSO RQVS (0) (ENS entre 0.98 y 0.21)
+ENSO SE (1) (ENS entre 0.97 y 0.21) PF lineal
+ENSO MSE (0) (ENS entre 0.982 y 0.981) Best - PF raro 
+ENSO Module (0) (ENS entre 0.982 y 0.980) PF raro
+ENSO SIE (0) (ENS entre 0.98 y 0.95)
+ENSO RSE (0) (ENS entre 0.98 y 0.97) muy mal
+
+
+
+
+
+Objective function
+------------------
+ENS (Efficiency Nash-Sutcliffe)
+ENSO (Efficiency Nash-Sutcliffe Opposite)
+PBIAS (Percen bias) 
+MCC multiple correlation coefficient
+Module 
+BME (Mass Balance Errors)
+SE (Square Error)
+SIE (Square Inverse Error)
+RSE (Relative Square Error)
+MSE (Mean Error Square-root)
+RQV (Ratio Streamflow and Volume)
+ERQV (enhanced ratio streamflow and volume)
+M4E (mean fourth-power error )
+MLSE (Mean Logarithmic Squared Error)
+MSDE (Mean Squared Derivative Error)

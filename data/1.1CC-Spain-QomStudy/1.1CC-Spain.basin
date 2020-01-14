@@ -1,0 +1,25 @@
+﻿BASIN (algoritm AbYYS reg. 1463 of study)
+file pertaining to the problem Simple Model of Losses and Excesses(SMLE)
+-------------------------------------------------------------------
+Description: Cuenca Asua, Bizkaia, Spain period 20070205 to 20070810
+Shape: FAST 1
+Area_(km2): 50.89
+pervious: 0.97
+concentration_time_(hour): 24
+Date_Time_Ini_(yyyy/MM/dd_hh:mm:00_tt): 2007/02/05 09:00:00 a.m.
+Date_Time_Fin_(yyyy/MM/dd_hh:mm:00_tt): 2007/08/10 09:00:00 a.m.
+Δt_(hours): 24
+Reg_Ini: 1
+Reg_End: 187
+Percolation_is_base_flow?(True/False): TRUE
+Qi_(m3/s): 0.0
+Qp_(m3/s): 0.0
+Qg_(m3/s): 0.26
+Ro_(mm): 0.0
+So_(mm): 4.0
+Rmax_(mm): 8 7.7
+Smax_(mm): 33 14.54
+pc_(mm/h): 2.5 2.6
+Ki(h): 5 21.9
+Kp(h): 20 22.5
+Kg(h): 100 97555

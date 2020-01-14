@@ -1,0 +1,11 @@
+﻿DECISION VARIABLES
+file pertaining to the problem Simple Model Losses and Execces (SMLE)
+---------------------------------------------------------
+Rmax(mm): 0.0 3.0
+Smax(mm): 0.0 4.0
+pc(mm/h): 0.0 0.5
+Ki(h): 5 35.0
+Kp(h): 100 8000.0
+Kg(h): 500 10000.0
+TC(h): 30 60
+Shape: 0.25 2.5

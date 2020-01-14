@@ -1,0 +1,26 @@
+﻿BASIN
+file pertaining to the problem Simple Model of Losses and Excesses(SMLE)
+-------------------------------------------------------------------
+Description: Cuenca Asua, Bizkaia, Spain period to 2005/06/06 to 2007/01/08
+Shape: FAST 1.0
+Area_(km2): 50.8
+pervious: 0.97
+concentration_time_(hour): 24
+Date_Time_Ini_(yyyy/MM/dd_hh:mm:00_tt): 2005/06/06 09:00:00 a.m.
+Date_Time_Fin_(yyyy/MM/dd_hh:mm:00_tt): 2007/01/08 09:00:00 a.m.
+Δt_(hours): 24
+Reg_Ini: 1
+Reg_End: 582
+Percolation_is_base_flow?(True/False): TRUE
+Qi_(m3/s): 0.00
+Qp_(m3/s): 0.00
+Qg_(m3/s): 0.10
+Ro_(mm): 0.0
+So_(mm): 0.0
+Rmax_(mm): 8 7.7
+Smax_(mm): 33 14.54
+pc_(mm/h): 2.5 2.6
+Ki(h): 5 21.9
+Kp(h): 20 22.5
+Kg(h): 100 97555
+------------------

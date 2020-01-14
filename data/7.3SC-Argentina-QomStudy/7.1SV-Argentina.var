@@ -1,0 +1,11 @@
+﻿DECISION VARIABLES
+file pertaining to the problem Simple Model of Losses and Excesses (SMLE)
+-------------------------------------------------------------------------
+Rmax(mm): 0.0 35.0
+Smax(mm): 0 150
+PC(mm/h): 0.0 3.0
+Ki(h): 0.0 50.0
+Kp(h): 0.0 500.0
+Kg(h): 0.0 500000.0
+CT(h): 100 400
+Shape: 0.25 2.5

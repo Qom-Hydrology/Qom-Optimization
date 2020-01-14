@@ -1,0 +1,25 @@
+﻿BASIN
+file pertaining to the problem Simple Model of Losses and Excesses (SMLE)
+---------------------------------------------------------
+Description: 08188500 San Antonio River Basin at Goliad Texas E.E.U.U.
+Shape: OVAL 0.93 1.1
+Area_(km2): 10000
+pevious: 0.95
+concentration_time_(hour): 180
+Date_Time_Ini_(yyyy/MM/dd_hh:mm:00_tt): 2007/03/09 09:00:00 a.m.
+Date_Time_Fin_(yyyy/MM/dd_hh:mm:00_tt): 2007/03/26 09:00:00 a.m.
+Dt_(hours): 24
+Reg_Ini: 1
+Reg_End: 18
+Percolation_is_base_flow?(True/False): FALSE
+Qi_(m3/s): 0.0
+Qp_(m3/s): 6.60
+Qg_(m3/s): 0.0
+Ro_(mm): 7
+So_(mm): 35
+Rmax:_(mm): 33
+Smax_(mm): 150.5
+pc:_(mm/h): 3.98
+Ki_(h): 582.75
+Kp_(h): 83.87
+Kg_(h): NaN

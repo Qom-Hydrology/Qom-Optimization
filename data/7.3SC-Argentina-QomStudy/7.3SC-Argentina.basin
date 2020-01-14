@@ -1,0 +1,34 @@
+﻿BASIN
+file pertaining to the problem Simple Model of Losses and Excesses (SMLE)
+---------------------------------------------------------
+Description: Cuenca del Río Salado, Estación R.P. N° 70, Santa Fe, Argentina.
+Shape: TRAPEZE 0.8 0.95
+Area_(km2): 41531.1
+pevious: 0.98
+concentration_time_(hour): 200 212.376578725761
+Date_Time_Ini_(yyyy/MM/dd_hh:mm:00_tt): 2005/03/09 09:00:00 a.m.
+Date_Time_Fin_(yyyy/MM/dd_hh:mm:00_tt): 2005/04/07 09:30:00 a.m.
+Dt_(hours): 24
+Reg_Ini: 1
+Reg_End: 30
+Percolation_is_base_flow?(True/False): True
+Qi_(m3/s): 0.0
+Qp_(m3/s): 0.0
+Qg_(m3/s): 0.0
+Ro_(mm): 0.0
+So_(mm): 0.0
+Rmax_(mm): 35.0
+Smax_(mm): 130
+pc_(mm/h): 0.2
+Ki(1/s): 50
+Kp(1/s): 254
+Kg(1/s): 446800
+-------------
+Rmax_(mm): 30
+Smax_(mm): 125.0
+pc_(mm/h): 2.0
+Ki(1/s): 50
+Kp(1/s): 350
+Kg(1/s): 100000
+--------------
+

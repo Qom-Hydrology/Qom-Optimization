@@ -1,0 +1,32 @@
+﻿BASIN
+file pertaining to the problem Simple Model of Losses and Excesses(SMLE)
+-------------------------------------------------------------------
+Description: Artibai basin, Bizkaia, Spain period 20020617 to 20021231
+Shape: TRAPEZE 1.0
+Area_(km2): 94.52
+pervious: 0.95
+concentration_time_(hour): 3.2
+Date_Time_Ini_(yyyy/MM/dd_hh:mm:00_tt): 2003/02/01 12:10:00 a.m.
+Date_Time_Fin_(yyyy/MM/dd_hh:mm:00_tt): 2003/03/04 08:30:00 p.m.
+Δt_(hours): 0.16666667
+Reg_Ini: 1
+Reg_End: 4588 1320
+Percolation_is_base_flow?(True/False): TRUE
+Qi_(m3/s): 0.0
+Qp_(m3/s): 4
+Qg_(m3/s): 7.9
+Ro_(mm): 0.0
+So_(mm): 0.0
+Rmax: 3
+Smax: 10
+pc: 0.12
+Ki: 1.8
+Kp: 17.0
+Kg: 142
+----------
+Rmax: 6.0
+Smax: 23
+pc: 0.4
+Ki: 1.0
+Kp: 7.5
+Kg: 250
